@@ -2,7 +2,7 @@ import socket
 target_host=""
 target_port=""
 target_host=str(input("Enter your target host : "))
-target_port=str(input("Enter your port target : "))
+target_port=int(input("Enter your port target : "))
 
 #Let's create a socket object 
 client=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
